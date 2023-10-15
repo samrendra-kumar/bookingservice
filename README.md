@@ -17,4 +17,14 @@
  }
  ...
  -Once you've added your db config as listed above,go to the src folder and execute `npx sequelize db:`
+ and then execute 
+ `npx sequelize db:migrate`
  ...
+
+ ##DB Design 
+ -Airplane Table 
+ -Flight 
+ -Airport
+ -City 
+
+
