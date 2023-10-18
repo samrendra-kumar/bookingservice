@@ -70,6 +70,8 @@ class CityRepository {
         throw {error};
       }
     }
+
+    
 }
 
 module.exports  = CityRepository

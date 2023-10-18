@@ -18,7 +18,7 @@ app.listen(PORT,async()=>{
     {
      db.sequelize.sync({alter:true});
     }
-  
+ 
     
     
 }) 
