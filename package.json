@@ -1,7 +1,7 @@
 {
   "name": "bookingflight",
   "version": "1.0.0",
-  "description": "",
+  "description": "-clone the projext on your local \r -Execute 'npm install' on the same path as of your root directory \r -Create a `.env` file in the root directory and the following env variable \r  -`PORT=3000`\r  -Inside the `src/config` create a new file `config.json` and then following piece of json\r  ...\r  {\r   \"development\": {\r     \"username\": \"<YOUR_DB_LOGIN_NAME>\",\r     \"password\": \"<YOUR_DB_PASSWORD>\",\r     \"database\": \"flights_search_DB\",\r     \"host\": \"127.0.0.1\",\r     \"dialect\": \"mysql\"\r   }\r  }\r  ...\r  -Once you've added your db config as listed above,go to the src folder and execute `npx sequelize db:`\r  and then execute \r  `npx sequelize db:migrate`\r  ...",
   "main": "index.js",
   "scripts": {
     "start": "npx nodemon src/index"
@@ -17,5 +17,6 @@
     "nodemon": "^3.0.1",
     "sequelize": "^6.33.0",
     "sequelize-cli": "^6.6.1"
-  }
+  },
+  "devDependencies": {}
 }
