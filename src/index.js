@@ -10,7 +10,7 @@ require("dotenv").config()
 const app = express() ;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true })); 
-app.use('/api',ApiRoutes);
+app.use('/bookingflight/api',ApiRoutes);
 app.use(express.json());
 app.listen(PORT,async()=>{
     console.log(`App is running at ${PORT}`);

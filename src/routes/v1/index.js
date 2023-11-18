@@ -6,6 +6,10 @@ const FlightController  = require('../../controllers/flight-controller');
 const AirportController = require('../../controllers/airport-controller');
 
 const router=express.Router() ;
+router.get('/info',(req,res)=>
+{
+ return res.json({message:'Response from routes '})
+})
 router.post('/city',CityController.create);
 router.delete('/city/:id',CityController.destroy);
 router.get('/city/:id',CityController.get);
